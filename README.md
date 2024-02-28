@@ -1,6 +1,6 @@
 # tokyo-olympic-azure-data-analysis
 The Tokyo Olympic Data Analysis on Azure project is a comprehensive solution for analyzing and visualizing Olympic Games data using various Azure services. This project aims to showcase how to leverage the power of cloud computing and Azure's data services to gain insights from historical Olympic data. By combining Azure Databricks, Azure Data Factory, and other Azure resources, this project provides a scalable and efficient way to process, transform, and analyze large volumes of Olympic data.
-Table of Contents
+# Table of Contents
 Introduction
 Architecture
 Technologies Used
@@ -9,11 +9,11 @@ Prerequisites
 Data Ingestion
 Data Processing
 Conclusion
-Introduction
+# Introduction
 The Olympic Data Analysis on Azure project demonstrates how to build an end-to-end data analysis pipeline on the Azure cloud platform. This involves ingesting raw Olympic data, transforming it into a suitable format, performing analysis, and creating insightful visualizations. The project provides an example of how to integrate and utilize Azure Databricks, Azure Data Factory, and other Azure services to achieve these goals.
 
-Architecture
-Architecture
+# Architecture
+
 
 The architecture of the project consists of the following components:
 
@@ -27,7 +27,7 @@ Azure SQL Database: Stores the cleaned and transformed data, making it accessibl
 
 Power BI: Connects to the Azure SQL Database to create interactive and visually appealing dashboards for data exploration.
 
-Technologies Used
+# Technologies Used
 Azure Databricks
 Azure Data Factory
 Azure Storage
