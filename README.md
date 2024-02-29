@@ -15,16 +15,15 @@ The architecture of the project consists of the following components:
 
 •	Azure Storage: Serves as the data lake for storing raw and processed data. It can also host intermediate results generated during the analysis.
 
-•	Azure SQL Database: Stores the cleaned and transformed data, making it accessible for visualization and reporting.
-
-•	Power BI: Connects to the Azure SQL Database to create interactive and visually appealing dashboards for data exploration.
+•	Azure Azure Analytics: Azure Synapse Analytics provides a comprehensive platform for data integration, warehousing, and analytics. Stores the cleaned and transformed data, making it accessible for visualization and reporting.
 
 # Technologies Used
-Azure Databricks
-Azure Data Factory
-Azure Storage
-Azure SQL Database
-Azure Synapse Analytics
+•	Azure Databricks
+•	Azure Data Factory
+•	Azure Storage
+•	Azure SQL Database
+•	Azure Synapse Analytics
+
 ![Screenshot 2024-02-29 085158](https://github.com/vishalkumar18/tokyo-olympic-azure-data-analysis/assets/43701305/976ae9ee-426f-4667-845a-6e6a1c879759)
 
 # Getting Started
@@ -40,10 +39,12 @@ Azure Synapse Analytics
 ![Screenshot 2024-02-29 090052](https://github.com/vishalkumar18/tokyo-olympic-azure-data-analysis/assets/43701305/2ee6b68f-baf1-4770-877e-e4a70c862e0b)
 
 The data processing stage involves cleaning and transforming raw Olympic data into a structured format suitable for analysis. This step takes advantage of Azure Databricks' distributed computing capabilities for efficient processing.
+
 ![Screenshot 2024-02-29 085259](https://github.com/vishalkumar18/tokyo-olympic-azure-data-analysis/assets/43701305/b7f8c665-ddd9-45ee-a3bd-5234fb1773ed)
 
 # Data Analysis using Azure Synapse
 Loading ​transformed data from Azure Date Lake Storage Gen2 (​🇦​​🇩​​🇱​​🇸​) ​🇹​​🇴​ Azure Synapse Analytics for basic data analysis.
+
 ![Screenshot 2024-02-29 085546](https://github.com/vishalkumar18/tokyo-olympic-azure-data-analysis/assets/43701305/2f03caff-1223-4cd0-9636-39aa869bbede)
 ![Screenshot 2024-02-29 085810](https://github.com/vishalkumar18/tokyo-olympic-azure-data-analysis/assets/43701305/67acb553-cf9c-4168-ad6b-8cfbd566e572)
 
