@@ -15,7 +15,7 @@ The architecture of the project consists of the following components:
 
 •	Azure Storage: Serves as the data lake for storing raw and processed data. It can also host intermediate results generated during the analysis.
 
-•	Azure Azure Analytics: Azure Synapse Analytics provides a comprehensive platform for data integration, warehousing, and analytics. Stores the cleaned and transformed data, making it accessible for visualization and reporting.
+•	Azure Synapse Analytics: For robust data warehousing and detailed analysis, allowing deeper exploration and insights.
 
 # Technologies Used
 •	Azure Databricks
